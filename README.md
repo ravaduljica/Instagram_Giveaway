@@ -1,8 +1,10 @@
 # Instagram_Giveaway
 A software in C made for instagram giveaways. This software read the names from a partecipants file and select a prefixed number of winners.
 
+First of all, some directory indications. The partecipants file "partecipanti.txt" must be in the same directory as the source file, if not so, adjust the path as you wish.
+
 In this snippet, the SIZE is the number of partecipants in the giveaway. It can be modified iterating the file to count up the number of partecipants indipendently.
-But all the elements allocated with SIZE, must be dinamically allocated
+But all the elements allocated with SIZE, must be dinamically allocated.
 
 ```ruby
 #define SIZE 32
