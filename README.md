@@ -91,3 +91,19 @@ while(correct < numerocodici)
      }
 }
 ```
+
+Just a few tips on the input file structure and the efficiency of the code. 
+
+The input file has all the partecipants written one per line.
+Example:
+    Partecipant1
+    Partecipant2
+    Partecipant3
+    ...
+
+The code is just a demo snippet, so i didn't update any big data efficient version with trees, hashmaps and stuffs.
+Also because at the time of the personal usage, i didn't need such an efficient structure.
+
+If the dimensions of the pot of partecipants are over 10000 i suggest you to implement a tree to store the partecipants and an hashmap pointing the tree nodes to cross it rapidly without losing O(n/2) at every extraction.
+
+Feel free to use this code as you wish, since it's free and open source
