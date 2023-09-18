@@ -60,6 +60,12 @@ int main()
     printf("Quanti gift vuoi regalare durante il tuo giveaway? ");
     scanf("%d", &numerocodici);
 
+    if(numerocodici > size)
+    {
+        printf("Stai selezionando un numero di gift maggiore di quello egli utenti, se non hai eliminato l'if statemet che garantisce la non ripetitività degli utenti estratti, elimina anche questo pezzo di codice\n");
+        return 1;
+    }
+
     //Uses clock time as a random seed for the extraction
     srand ( time(NULL) );
 
